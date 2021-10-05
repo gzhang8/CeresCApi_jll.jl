@@ -1,0 +1,20 @@
+[[CeresCApi]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fe1aa80ee54fe595ef9994abe5908bd115634684"
+libc = "glibc"
+os = "linux"
+
+    [[CeresCApi.download]]
+    sha256 = "aa4a71ceec5431a9d7e6ce5acc9f9cb4266066bafab05baac7b80d4caa849d69"
+    url = "https://github.com/gzhang8/CeresCApi_jll.jl/releases/download/CeresCApi-v0.1.0+0/CeresCApi.v0.1.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[CeresCApi]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cde72922ee5ebfbf612e0672dbbe8ab8ed33883c"
+libc = "glibc"
+os = "linux"
+
+    [[CeresCApi.download]]
+    sha256 = "93d49f2d24a669b32784e8239e46e5282c8ce32acbc69de6c5f3f7b8da110c0c"
+    url = "https://github.com/gzhang8/CeresCApi_jll.jl/releases/download/CeresCApi-v0.1.0+0/CeresCApi.v0.1.0.x86_64-linux-gnu-cxx11.tar.gz"
