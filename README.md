@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `CeresCApi_jll.jl` have been built from these sources:
 
-* files in directory, relative to originating `build_tarballs.jl`: `/home/gzhang8/project/CeresCApi`
+* git repository: https://github.com/gzhang8/CeresCApi.git (revision: `fba29c334db8330ba613df4abe27138a2c78ccbb`)
 
 ## Platforms
 
@@ -22,7 +22,6 @@ The tarballs for `CeresCApi_jll.jl` have been built from these sources:
 The following JLL packages are required by `CeresCApi_jll.jl`:
 
 * `CeresSolver_jll)`
-* `Eigen_jll)`
 
 ## Products
 

@@ -2,11 +2,10 @@
 export libceres_c_api
 
 using CeresSolver_jll
-using Eigen_jll
 JLLWrappers.@generate_wrapper_header("CeresCApi")
 JLLWrappers.@declare_library_product(libceres_c_api, "libceres_c_api.so")
 function __init__()
-    JLLWrappers.@generate_init_header(CeresSolver_jll, Eigen_jll)
+    JLLWrappers.@generate_init_header(CeresSolver_jll)
     JLLWrappers.@init_library_product(
         libceres_c_api,
         "lib/libceres_c_api.so",

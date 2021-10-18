@@ -8,7 +8,6 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 CeresSolver_jll = "274fe647-06be-54d6-af78-99f37f3755f2"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-Eigen_jll = "bc6bbf8a-a594-5541-9c57-10b0d0312c70"
 
 [compat]
 JLLWrappers = "1.2.0"
